@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .card{
+            background-color: green;
+            width: 500px;
+            height: 650px;
+            border-radius: 25px;
+            margin: auto 450px;
+        }
+        h1{
+            color: beige;
+            font-size: 50px;
+            text-align: center;
+        }
+        label{
+            color: white;
+            font-size: 30px;
+
+        }
+        input{
+            font-size: 20px;
+            background-color: bisque;
+            width: 380px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        input:hover{
+            border-radius: 0;
+        }
+        select{
+            font-size: 20px;
+            background-color: bisque;
+            width: 380px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        select:hover{
+            border-radius: 0;
+
+        }
+        .submit{
+            border-radius: 15px;
+            color: rgb(112, 112, 64);
+            cursor: pointer;
+            height: 40px;
+            width: 450px;
+            margin: 20px;
+        }
+        .submit:hover{
+            color: brown;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="card">
+        <form>
+            <h1>Fill in the required information</h1><hr>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="fname"><br>
+            <label for="pnumber">Phone Number</label><br>
+            <input type="number" id="pnumber" name="pnumber"><br>
+            <label for="eaddress">Email Address</label><br>
+            <input type="email-address" id="eaddress" name="eaddress"><br>
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender">
+                <option value="gender">Male</option>
+                <option value="gender">Female</option>
+                <option value="gender">Custom</option>
+            </select><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password">
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+</body>
+</html>

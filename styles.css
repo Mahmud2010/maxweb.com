@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: whitesmoke;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+nav p{
+    font-family: arial;
+    color: #222;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0 20px;
+}
+nav ul{
+    float: left;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav ul li:hover{
+    background-color: grey;
+    
+}
+nav ul li a{
+    display: block;
+    font-family: arial;
+    color: #222;
+    font-size: 14px;
+    padding: 22px 14px;
+    text-decoration: none;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 0 4px 4px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li{
+    width: 180px;
+    border-radius: 4px;
+}
+nav ul li ul li a{
+    padding: 8px 14px;
+}
+nav ul li ul li a:hover{
+    background-color: #f3f3f3;
+}
+#introduction{
+    background-color: lightskyblue;
+    width: 100%;
+    height: 640px;
+    /* color: black;
+    font-size: 30px; */
+   
+   
+}
+#inside{
+    padding-top: 300px;
+}
+#inside h1{
+    color: bisque;
+    font-weight: 900;
+    font-family: monospace;
+    font-size: 110px;
+}
+#inside h2{
+    color: rgb(52, 18, 116);
+    font-size: 70px;
+}
+#introduction a{
+    font-size: 30px;
+    color: green;
+    margin-left: 1089px;
+}
+#introduction a:hover{
+    color: beige;
+}
+#portfolio{
+    background-color: pink;
+    height: 810px;
+    width: 100%;
+}
+#portfolio h1{
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 50px;
+}
+#appdevelopment{
+    width: 100%;
+    height: 210px;
+    background-color: violet;
+    color: blanchedalmond;
+    font-size: 40px;
+}
+button{
+    background-color: white;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: 1000px;
+    border: 2px solid pink;
+    background-color: violet;
+    color: white;
+}
+#graphicpackages{
+    width: 100%;
+    height: 210px;
+    background-color: violet;
+    color: blanchedalmond;
+    font-size: 40px;
+    margin-top: 40px;
+}
+#webdevelopment{
+    width: 100%;
+    height: 210px;
+    background-color: violet;
+    color: blanchedalmond;
+    font-size: 40px;
+    margin-top: 40px;
+}
+#about{
+    width: 100%;
+    height: 640px;
+    background-color: firebrick;
+    color: white;
+    font-size: 60px;
+}
+#about h1{
+    color: beige;
+    font-size: 50px;
+    text-align: center;
+}
+#contact{
+    width: 100%;
+    height: 640px;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 60px;
+}
+#contact h1{
+    color: beige;
+    font-size: 50px;
+    text-align: center
+}
+#contact h2{
+    text-align: center;
+    font-size: 55px;
+}
+#contact ul li{
+    list-style-type: disc;
+}
+#copywright{
+    font-size: 30px;
+    text-align: center;
+    font-family: Algerian;
+    color: red;
+}
